@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<groups xmlns="http://www.isdc.ro/wro">
+	<group name="base">
+		<!-- CSS -->
+		<css>webjar:css/bootstrap.min.css</css>
+		<css>/css/style.css</css>
+		<!-- JS -->
+		<js>webjar:jquery.min.js</js>
+		<js>webjar:js/bootstrap.min.js</js>
+		<js>webjar:babel.js</js>
+		<!-- UTILS -->
+		<js>/js/util/utils.js</js>
+	</group>
+</groups>

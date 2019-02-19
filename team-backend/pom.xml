@@ -12,7 +12,7 @@
 	<artifactId>team-backend</artifactId>
 	<version>0.1.0</version>
 	<name>team-backend</name>
-	<description>Spring boot project for a Java CMS system</description>
+	<description>Spring boot project for a Java backend</description>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
