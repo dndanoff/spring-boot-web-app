@@ -1,0 +1,41 @@
+18:31:35.016 [main] INFO  c.d.t.TeamBackendApplicationTests - Starting TeamBackendApplicationTests on DESKTOP-6E8GTVI with PID 8684 (started by Denis in D:\SpringWorkspace\team\team-backend)
+18:31:35.018 [main] DEBUG c.d.t.TeamBackendApplicationTests - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+18:31:35.019 [main] INFO  c.d.t.TeamBackendApplicationTests - No active profile set, falling back to default profiles: default
+18:31:36.670 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+18:31:36.734 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 50ms. Found 0 repository interfaces.
+18:31:37.496 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8dab8bf4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:31:37.929 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+18:31:38.095 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+18:31:38.232 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+18:31:38.317 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+18:31:38.320 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+18:31:38.502 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+18:31:39.174 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+18:31:39.460 [main] INFO  o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@251a90ce'
+18:31:39.465 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+18:31:40.848 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18:31:41.460 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+18:31:42.332 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+18:31:43.370 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+18:31:43.398 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+18:31:43.416 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+18:31:43.643 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: countResourcesUsingGET_1
+18:31:43.680 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: createResourcesUsingPOST_1
+18:31:43.697 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: deleteResourceUsingDELETE_1
+18:31:43.720 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: findOneResourceUsingGET_1
+18:31:43.740 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: findResourcesPaginatedUsingGET_1
+18:31:43.768 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: updateResourcesUsingPUT_1
+18:31:43.775 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: countResourcesUsingGET_2
+18:31:43.797 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: createResourcesUsingPOST_2
+18:31:43.807 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: deleteResourceUsingDELETE_2
+18:31:43.819 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: findOneResourceUsingGET_2
+18:31:43.831 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: findResourcesPaginatedUsingGET_2
+18:31:43.839 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: updateResourcesUsingPUT_2
+18:31:43.889 [main] INFO  c.d.t.TeamBackendApplicationTests - Started TeamBackendApplicationTests in 9.356 seconds (JVM running for 10.269)
+18:31:44.097 [Thread-4] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+18:31:44.105 [Thread-4] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+18:31:44.105 [Thread-4] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+18:31:44.111 [Thread-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+18:31:44.117 [Thread-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
