@@ -144,7 +144,7 @@
 						<version>1.0-alpha-2</version>
 						<executions>
 							<execution>
-								<id>read-jooq-properties</id>
+								<id>read-db-properties</id>
 								<phase>initialize</phase>
 								<goals>
 									<goal>read-project-properties</goal>
